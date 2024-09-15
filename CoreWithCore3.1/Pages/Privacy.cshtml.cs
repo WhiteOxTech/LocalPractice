@@ -1,7 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace SampleCoreApp1.Pages
+namespace CoreWithCore3._1.Pages
 {
     public class PrivacyModel : PageModel
     {
@@ -10,13 +15,12 @@ namespace SampleCoreApp1.Pages
         public PrivacyModel(ILogger<PrivacyModel> logger)
         {
             _logger = logger;
-            string values= null;
-            var splitter = values.Length;
+
         }
 
         public void OnGet()
         {
+            //throw new Exception("error.");
         }
     }
-
 }
