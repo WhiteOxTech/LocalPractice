@@ -1,0 +1,30 @@
+## bin/
+## obj/
+*.dll
+*.exe
+*.pdb
+.vs/
+.vscode/
+*.db
+*.db-shm
+*.db-wal
+node_modules/
+dist/
+.DS_Store
+*.user
+*.suo
+.idea/
+*.swp
+*.swo
+*~
+# Ignore build output
+bin/
+obj/
+publish/
+
+# Ignore IDE specific files
+.vs/
+.vscode/
+
+# Ignore user-specific files
+*.user
