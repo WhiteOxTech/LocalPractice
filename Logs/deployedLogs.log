@@ -1,0 +1,464 @@
+info: Program[0]
+      === Application Starting ===
+info: Program[0]
+      Environment: Production
+info: Program[0]
+      === Middleware Configuration Starting ===
+info: Program[0]
+      === Middleware Configuration Complete ===
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory[12]
+      Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+dbug: Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler[3]
+      Initializing Razor view compiler with compiled view: '/Pages/Admin/Dashboard.cshtml'.
+dbug: Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler[3]
+      Initializing Razor view compiler with compiled view: '/Pages/Error.cshtml'.
+dbug: Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler[3]
+      Initializing Razor view compiler with compiled view: '/Pages/Index.cshtml'.
+dbug: Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler[3]
+      Initializing Razor view compiler with compiled view: '/Pages/Login.cshtml'.
+dbug: Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler[3]
+      Initializing Razor view compiler with compiled view: '/Pages/Logout.cshtml'.
+dbug: Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler[3]
+      Initializing Razor view compiler with compiled view: '/Pages/NotFound.cshtml'.
+dbug: Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler[3]
+      Initializing Razor view compiler with compiled view: '/Pages/Staff/NewTransaction.cshtml'.
+dbug: Microsoft.Extensions.Hosting.Internal.Host[1]
+      Hosting starting
+dbug: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[37]
+      Reading data from file 'C:\publish\ShopManagementSystem\keys\key-7f82e620-0014-47b6-985f-00a2211b8cb4.xml'.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[18]
+      Found key {7f82e620-0014-47b6-985f-00a2211b8cb4}.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[13]
+      Considering key {7f82e620-0014-47b6-985f-00a2211b8cb4} with expiration date 2026-06-13 16:34:39Z as default key.
+dbug: Microsoft.AspNetCore.DataProtection.TypeForwardingActivator[0]
+      Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[4]
+      Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[3]
+      Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[2]
+      Using key {7f82e620-0014-47b6-985f-00a2211b8cb4} as the default key.
+dbug: Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService[65]
+      Key ring with default key {7f82e620-0014-47b6-985f-00a2211b8cb4} was loaded during application startup.
+warn: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[16]
+      The WebRootPath was not found: C:\publish\ShopManagementSystem\wwwroot. Static files may be unavailable.
+dbug: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware[7]
+      Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+dbug: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware[0]
+      Wildcard detected, all requests with hosts will be allowed.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://127.0.0.1:44828
+dbug: Microsoft.AspNetCore.Hosting.Diagnostics[13]
+      Loaded hosting startup assembly ShopManagementSystem
+dbug: Microsoft.AspNetCore.Hosting.Diagnostics[13]
+      Loaded hosting startup assembly Microsoft.AspNetCore.Server.IISIntegration
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\publish\ShopManagementSystem
+dbug: Microsoft.Extensions.Hosting.Internal.Host[2]
+      Hosting started
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[39]
+      Connection id "0HNK3SH7CTJRO" accepted.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[1]
+      Connection id "0HNK3SH7CTJRO" started.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/parnidigitals - - -
+info: Program[0]
+      >>> Incoming Request: GET  User=Anonymous
+dbug: Microsoft.AspNetCore.HttpsPolicy.HstsMiddleware[1]
+      The request is insecure. Skipping HSTS header.
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+dbug: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[4]
+      The request path  does not match a supported file type
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1001]
+      1 candidate(s) found for the request path ''
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1005]
+      Endpoint '/Index' with route pattern '' is valid for the request path ''
+dbug: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware[1]
+      Request matched endpoint '/Index'
+info: Program[0]
+      >>> Authentication Check: Path= IsAuthenticated=False User=Anonymous
+dbug: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[37]
+      Reading data from file 'C:\publish\ShopManagementSystem\keys\key-7f82e620-0014-47b6-985f-00a2211b8cb4.xml'.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[18]
+      Found key {7f82e620-0014-47b6-985f-00a2211b8cb4}.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[13]
+      Considering key {7f82e620-0014-47b6-985f-00a2211b8cb4} with expiration date 2026-06-13 16:34:39Z as default key.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[4]
+      Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[3]
+      Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[2]
+      Using key {7f82e620-0014-47b6-985f-00a2211b8cb4} as the default key.
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      CookieAuth was not authenticated. Failure message: Unprotect ticket failed
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint '/Index'
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[103]
+      Route matched with {page = "/Index"}. Executing page /Index
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of authorization filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of exception filters (in the following order): None
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[103]
+      Executing page factory for page AspNetCoreGeneratedDocument.Pages_Index (ShopManagementSystem)
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[104]
+      Executed page factory for page AspNetCoreGeneratedDocument.Pages_Index (ShopManagementSystem)
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[107]
+      Executing an implicit handler method - ModelState is Valid
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[109]
+      Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+dbug: Microsoft.AspNetCore.Routing.DefaultLinkGenerator[100]
+      Found the endpoints /Login for address (page=[/Login])
+dbug: Microsoft.AspNetCore.Routing.DefaultLinkGenerator[102]
+      Successfully processed template Login for /Login resulting in /Login and 
+dbug: Microsoft.AspNetCore.Routing.DefaultLinkGenerator[105]
+      Link generation succeeded for endpoints /Login with result /parnidigitals/Login
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[104]
+      Executed page /Index in 50.9856ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint '/Index'
+info: Program[0]
+      <<< After Authentication: IsAuthenticated=False User=Anonymous
+info: Program[0]
+      <<< Response: StatusCode=200 Path= User=Anonymous
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[9]
+      Connection id "0HNK3SH7CTJRO" completed keep alive response.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/parnidigitals - 200 - text/html;+charset=utf-8 129.5127ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/parnidigitals/Login - - -
+info: Program[0]
+      >>> Incoming Request: GET /Login User=Anonymous
+dbug: Microsoft.AspNetCore.HttpsPolicy.HstsMiddleware[1]
+      The request is insecure. Skipping HSTS header.
+dbug: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[4]
+      The request path /Login does not match a supported file type
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1001]
+      1 candidate(s) found for the request path '/Login'
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1005]
+      Endpoint '/Login' with route pattern 'Login' is valid for the request path '/Login'
+dbug: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware[1]
+      Request matched endpoint '/Login'
+info: Program[0]
+      >>> Authentication Check: Path=/Login IsAuthenticated=False User=Anonymous
+dbug: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[37]
+      Reading data from file 'C:\publish\ShopManagementSystem\keys\key-7f82e620-0014-47b6-985f-00a2211b8cb4.xml'.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[18]
+      Found key {7f82e620-0014-47b6-985f-00a2211b8cb4}.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[13]
+      Considering key {7f82e620-0014-47b6-985f-00a2211b8cb4} with expiration date 2026-06-13 16:34:39Z as default key.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[4]
+      Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[3]
+      Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[2]
+      Using key {7f82e620-0014-47b6-985f-00a2211b8cb4} as the default key.
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      CookieAuth was not authenticated. Failure message: Unprotect ticket failed
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint '/Login'
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[103]
+      Route matched with {page = "/Login"}. Executing page /Login
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of authorization filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of exception filters (in the following order): None
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[101]
+      Executing page model factory for page AspNetCoreGeneratedDocument.Pages_Login (ShopManagementSystem)
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[102]
+      Executed page model factory for page AspNetCoreGeneratedDocument.Pages_Login (ShopManagementSystem)
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[107]
+      Executing an implicit handler method - ModelState is Valid
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[109]
+      Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+dbug: Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery[6]
+      An antiforgery cookie token was reused.
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[104]
+      Executed page /Login in 12.1061ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint '/Login'
+info: Program[0]
+      <<< After Authentication: IsAuthenticated=False User=Anonymous
+info: Program[0]
+      <<< Response: StatusCode=200 Path=/Login User=Anonymous
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[9]
+      Connection id "0HNK3SH7CTJRO" completed keep alive response.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/parnidigitals/Login - 200 - text/html;+charset=utf-8 35.0820ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost/parnidigitals/Login - application/x-www-form-urlencoded 215
+info: Program[0]
+      >>> Incoming Request: POST /Login User=Anonymous
+dbug: Microsoft.AspNetCore.HttpsPolicy.HstsMiddleware[1]
+      The request is insecure. Skipping HSTS header.
+dbug: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[1]
+      POST requests are not supported
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1001]
+      1 candidate(s) found for the request path '/Login'
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1005]
+      Endpoint '/Login' with route pattern 'Login' is valid for the request path '/Login'
+dbug: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware[1]
+      Request matched endpoint '/Login'
+info: Program[0]
+      >>> Authentication Check: Path=/Login IsAuthenticated=False User=Anonymous
+dbug: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[37]
+      Reading data from file 'C:\publish\ShopManagementSystem\keys\key-7f82e620-0014-47b6-985f-00a2211b8cb4.xml'.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[18]
+      Found key {7f82e620-0014-47b6-985f-00a2211b8cb4}.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[13]
+      Considering key {7f82e620-0014-47b6-985f-00a2211b8cb4} with expiration date 2026-06-13 16:34:39Z as default key.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[4]
+      Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[3]
+      Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[2]
+      Using key {7f82e620-0014-47b6-985f-00a2211b8cb4} as the default key.
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      CookieAuth was not authenticated. Failure message: Unprotect ticket failed
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint '/Login'
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[103]
+      Route matched with {page = "/Login"}. Executing page /Login
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of authorization filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of exception filters (in the following order): None
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Server.Kestrel[25]
+      Connection id "0HNK3SH7CTJRO", Request id "0HNK3SH7CTJRO:00000003": started reading request body.
+dbug: Microsoft.AspNetCore.Server.Kestrel[26]
+      Connection id "0HNK3SH7CTJRO", Request id "0HNK3SH7CTJRO:00000003": done reading request body.
+dbug: Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery[2]
+      Antiforgery successfully validated a request.
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[101]
+      Executing page model factory for page AspNetCoreGeneratedDocument.Pages_Login (ShopManagementSystem)
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[102]
+      Executed page model factory for page AspNetCoreGeneratedDocument.Pages_Login (ShopManagementSystem)
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder[22]
+      Attempting to bind parameter 'username' of type 'System.String' ...
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder[44]
+      Attempting to bind parameter 'username' of type 'System.String' using the name 'username' in request data ...
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder[45]
+      Done attempting to bind parameter 'username' of type 'System.String'.
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder[23]
+      Done attempting to bind parameter 'username' of type 'System.String'.
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder[26]
+      Attempting to validate the bound parameter 'username' of type 'System.String' ...
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder[27]
+      Done attempting to validate the bound parameter 'username' of type 'System.String'.
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder[22]
+      Attempting to bind parameter 'password' of type 'System.String' ...
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder[44]
+      Attempting to bind parameter 'password' of type 'System.String' using the name 'password' in request data ...
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder[45]
+      Done attempting to bind parameter 'password' of type 'System.String'.
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder[23]
+      Done attempting to bind parameter 'password' of type 'System.String'.
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder[26]
+      Attempting to validate the bound parameter 'password' of type 'System.String' ...
+dbug: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder[27]
+      Done attempting to validate the bound parameter 'password' of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[105]
+      Executing handler method ShopManagementSystem.Pages.LoginModel.OnPostAsync - ModelState is Valid
+info: ShopManagementSystem.Pages.LoginModel[0]
+      Login attempt: username=staff
+info: ShopManagementSystem.Pages.LoginModel[0]
+      Login successful: username=staff role=Staff
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: CookieAuth signed in.
+info: ShopManagementSystem.Pages.LoginModel[0]
+      SignInAsync completed for user: staff
+info: ShopManagementSystem.Pages.LoginModel[0]
+      Redirecting user staff to /Staff/NewTransaction
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[108]
+      Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+dbug: Microsoft.AspNetCore.Routing.DefaultLinkGenerator[100]
+      Found the endpoints /Staff/NewTransaction for address (page=[/Staff/NewTransaction])
+dbug: Microsoft.AspNetCore.Routing.DefaultLinkGenerator[102]
+      Successfully processed template Staff/NewTransaction for /Staff/NewTransaction resulting in /Staff/NewTransaction and 
+dbug: Microsoft.AspNetCore.Routing.DefaultLinkGenerator[105]
+      Link generation succeeded for endpoints /Staff/NewTransaction with result /parnidigitals/Staff/NewTransaction
+info: Microsoft.AspNetCore.Mvc.RedirectToRouteResult[1]
+      Executing RedirectToPageResult, redirecting to /Staff/NewTransaction.
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[104]
+      Executed page /Login in 59.2239ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint '/Login'
+info: Program[0]
+      <<< After Authentication: IsAuthenticated=False User=Anonymous
+info: Program[0]
+      <<< Response: StatusCode=302 Path=/Login User=Anonymous
+warn: Program[0]
+      !!! REDIRECT: 302 -> /parnidigitals/Staff/NewTransaction
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[9]
+      Connection id "0HNK3SH7CTJRO" completed keep alive response.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost/parnidigitals/Login - 302 0 - 62.8020ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/parnidigitals/Staff/NewTransaction - - -
+info: Program[0]
+      >>> Incoming Request: GET /Staff/NewTransaction User=Anonymous
+dbug: Microsoft.AspNetCore.HttpsPolicy.HstsMiddleware[1]
+      The request is insecure. Skipping HSTS header.
+dbug: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[4]
+      The request path /Staff/NewTransaction does not match a supported file type
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1001]
+      1 candidate(s) found for the request path '/Staff/NewTransaction'
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1005]
+      Endpoint '/Staff/NewTransaction' with route pattern 'Staff/NewTransaction' is valid for the request path '/Staff/NewTransaction'
+dbug: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware[1]
+      Request matched endpoint '/Staff/NewTransaction'
+info: Program[0]
+      >>> Authentication Check: Path=/Staff/NewTransaction IsAuthenticated=False User=Anonymous
+dbug: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[37]
+      Reading data from file 'C:\publish\ShopManagementSystem\keys\key-7f82e620-0014-47b6-985f-00a2211b8cb4.xml'.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[18]
+      Found key {7f82e620-0014-47b6-985f-00a2211b8cb4}.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[13]
+      Considering key {7f82e620-0014-47b6-985f-00a2211b8cb4} with expiration date 2026-06-13 16:34:39Z as default key.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[4]
+      Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[3]
+      Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[2]
+      Using key {7f82e620-0014-47b6-985f-00a2211b8cb4} as the default key.
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      CookieAuth was not authenticated. Failure message: Unprotect ticket failed
+dbug: Microsoft.AspNetCore.Authorization.AuthorizationMiddleware[0]
+      Policy authentication schemes  did not succeed
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[2]
+      Authorization failed. These requirements were not met:
+      DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[12]
+      AuthenticationScheme: CookieAuth was challenged.
+info: Program[0]
+      <<< After Authentication: IsAuthenticated=False User=Anonymous
+info: Program[0]
+      <<< Response: StatusCode=302 Path=/Staff/NewTransaction User=Anonymous
+warn: Program[0]
+      !!! REDIRECT: 302 -> http://localhost/parnidigitals/Login?ReturnUrl=%2Fparnidigitals%2FStaff%2FNewTransaction
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[9]
+      Connection id "0HNK3SH7CTJRO" completed keep alive response.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/parnidigitals/Staff/NewTransaction - 302 0 - 10.5098ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost/parnidigitals/Login?ReturnUrl=%2Fparnidigitals%2FStaff%2FNewTransaction - - -
+info: Program[0]
+      >>> Incoming Request: GET /Login?ReturnUrl=%2Fparnidigitals%2FStaff%2FNewTransaction User=Anonymous
+dbug: Microsoft.AspNetCore.HttpsPolicy.HstsMiddleware[1]
+      The request is insecure. Skipping HSTS header.
+dbug: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[4]
+      The request path /Login does not match a supported file type
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1001]
+      1 candidate(s) found for the request path '/Login'
+dbug: Microsoft.AspNetCore.Routing.Matching.DfaMatcher[1005]
+      Endpoint '/Login' with route pattern 'Login' is valid for the request path '/Login'
+dbug: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware[1]
+      Request matched endpoint '/Login'
+info: Program[0]
+      >>> Authentication Check: Path=/Login IsAuthenticated=False User=Anonymous
+dbug: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[37]
+      Reading data from file 'C:\publish\ShopManagementSystem\keys\key-7f82e620-0014-47b6-985f-00a2211b8cb4.xml'.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[18]
+      Found key {7f82e620-0014-47b6-985f-00a2211b8cb4}.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver[13]
+      Considering key {7f82e620-0014-47b6-985f-00a2211b8cb4} with expiration date 2026-06-13 16:34:39Z as default key.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[4]
+      Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+dbug: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory[3]
+      Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+dbug: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider[2]
+      Using key {7f82e620-0014-47b6-985f-00a2211b8cb4} as the default key.
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      CookieAuth was not authenticated. Failure message: Unprotect ticket failed
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint '/Login'
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[103]
+      Route matched with {page = "/Login"}. Executing page /Login
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of authorization filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of exception filters (in the following order): None
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[1]
+      Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[101]
+      Executing page model factory for page AspNetCoreGeneratedDocument.Pages_Login (ShopManagementSystem)
+dbug: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[102]
+      Executed page model factory for page AspNetCoreGeneratedDocument.Pages_Login (ShopManagementSystem)
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[107]
+      Executing an implicit handler method - ModelState is Valid
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[109]
+      Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+dbug: Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery[6]
+      An antiforgery cookie token was reused.
+info: Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker[104]
+      Executed page /Login in 4.5749ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint '/Login'
+info: Program[0]
+      <<< After Authentication: IsAuthenticated=False User=Anonymous
+info: Program[0]
+      <<< Response: StatusCode=200 Path=/Login User=Anonymous
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[9]
+      Connection id "0HNK3SH7CTJRO" completed keep alive response.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost/parnidigitals/Login?ReturnUrl=%2Fparnidigitals%2FStaff%2FNewTransaction - 200 - text/html;+charset=utf-8 6.2987ms
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[6]
+      Connection id "0HNK3SH7CTJRO" received FIN.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[7]
+      Connection id "0HNK3SH7CTJRO" sending FIN because: "The Socket transport's send loop completed gracefully."
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[10]
+      Connection id "0HNK3SH7CTJRO" disconnecting.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[2]
+      Connection id "0HNK3SH7CTJRO" stopped.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[39]
+      Connection id "0HNK3SH7CTJRP" accepted.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[1]
+      Connection id "0HNK3SH7CTJRP" started.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:44828/PARNIDIGITALS/iisintegration - - 0
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[9]
+      Connection id "0HNK3SH7CTJRP" completed keep alive response.
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:44828/PARNIDIGITALS/iisintegration - 202 0 - 0.2928ms
+dbug: Microsoft.Extensions.Hosting.Internal.Host[3]
+      Hosting stopping
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[10]
+      Connection id "0HNK3SH7CTJRP" disconnecting.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Connections[2]
+      Connection id "0HNK3SH7CTJRP" stopped.
+dbug: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets[7]
+      Connection id "0HNK3SH7CTJRP" sending FIN because: "The Socket transport's send loop completed gracefully."
+dbug: Microsoft.Extensions.Hosting.Internal.Host[4]
+      Hosting stopped
